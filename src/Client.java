@@ -1,4 +1,4 @@
-public class Client {
-    private long id;
-    private
+public class Client extends User {
+    private String deliveryAddress;
+
 }
