@@ -12,6 +12,10 @@ public class Administrator extends User {
         this.startDate = startDate;
     }
 
+    public Administrator() {
+        this.startDate = new Date();
+    }
+
     @Override
     public String toString() {
         return "Administrator{" +
